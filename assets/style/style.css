@@ -38,6 +38,10 @@ h1.title {
   font-size: 2em;
 }
 
+.content {
+  margin-bottom: 4em;
+}
+
 .content * {
   margin-bottom: 1rem;
   line-height: 1.5em;
@@ -47,4 +51,15 @@ h1.title {
   font-size: 1.5em;
   font-weight: bold;
   color: var(--dark);
+}
+
+.content li {
+  margin-left: 2em;
+}
+
+a.redirect {
+  text-align: center;
+  line-height: 1.5;
+  display: block;
+  padding: 0 1em;
 }
