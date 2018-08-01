@@ -33,3 +33,18 @@ body > .main {
   display: block;
   padding: 0 1rem;
 }
+
+h1.title {
+  font-size: 2em;
+}
+
+.content * {
+  margin-bottom: 1rem;
+  line-height: 1.5em;
+}
+
+.content h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: var(--dark);
+}
