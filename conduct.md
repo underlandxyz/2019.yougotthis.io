@@ -33,10 +33,10 @@ If a person engages in any harassing behaviour, we may take any action we deem a
 If you are being harassed, or notice someone else is being harassed, or have any other concerns, please contact the You Got This care team using any of the following details:
 
 * Phone number TBC closer to the event
-* [incidents@yougotthis.io](mailto:incidents@yougotthis.io)
+* [incidents@underland.xyz](mailto:incidents@underland.xyz)
 
 We expect people to follow these rules at all event venues should there be more than one. 
 
-If you have any questions regarding these policies, please contact Hacksmiths by e-mail at [yougotthis@yougotthis.io](mailto:yougotthis@yougotthis.io)
+If you have any questions regarding these policies, please contact the Underland team by e-mail at [yougotthis@underland.xyz](mailto:yougotthis@underland.xyz)
 
 

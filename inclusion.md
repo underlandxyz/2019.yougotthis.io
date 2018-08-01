@@ -5,7 +5,7 @@ title: Inclusion Programme
 
 <div class="content w">
   <h1 class="title">Inclusion Programme</h1>
-  <p>We're committed to running an accessible, inclusive and safe conference for everyone. We're working with <a href="http://mykindof.tech/">my Kind of Tech</a> to add extra ✨ to our inclusion programme. To make this an event for everyone, we will do the following:</p>
+  <p>We're committed to running an accessible, inclusive and safe conference for everyone. We're working with <a href="http://mykindof.tech/">My Kind of Tech</a> to add extra ✨ to our inclusion programme. To make this an event for everyone, we will do the following:</p>
   <ul>
     <h3>Conduct</h3>
     <li>Having a <a href="/conduct">Code of Conduct</a> which will be enforced.</li>
@@ -28,7 +28,7 @@ title: Inclusion Programme
     <li>Working towards having a quiet breakout space for those who need to cool off from the social activity.</li>
     <li>A dedicated team member to support any attendees with accessibility requirements.</li>
   </ul>
-  <p>The Underland and My Kind of Team teams hope this will make the event comfortable for everyone. If there's something more you think we could be doing, please <a href="mailto:yougotthis@underland.xyz">get in touch</a>.</p>
+  <p>The Underland and My Kind of Tech teams hope this will make the event comfortable for everyone. If there's something more you think we could be doing, please <a href="mailto:yougotthis@underland.xyz">get in touch</a>.</p>
 </div>
 
 <style>
