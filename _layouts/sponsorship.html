@@ -144,6 +144,7 @@ layout: default
   #plans .box li {
     margin-top: 0.5em;
     list-style-type: none;
+    margin-left: 0;
   }
 
   #plans .box span {
@@ -177,11 +178,21 @@ layout: default
     padding: 0.5em 1em;
     margin-top: 0.5em;
     margin-right: 0.5em;
+    margin-left: 0;
   }
   #plans + p {
     margin-top: 4em;
     margin-bottom: 4em;
     font-size: 1.25em;
     font-weight: bold;
+  }
+  @media screen and (max-width: 800px) {
+    #content-list .lists,
+    #plans .boxes {
+      grid-template-columns: 1fr;
+    }
+    #content-list ul {
+      margin-bottom: 0;
+    }
   }
 </style>
