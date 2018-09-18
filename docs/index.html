@@ -28,6 +28,15 @@
     </div>
   </div>
 </header>
+<nav>
+  <div class="links w">
+    <a href="/">Home</a>
+    <a href="/sponsorship">Sponsorship</a>
+    <!-- <a href="/venue">Venue</a> -->
+    <a href="/inclusion">Inclusion Programme</a>
+    <a href="/conduct">Code of Conduct</a>
+  </div>
+</nav>
 
 <style>
   header {
@@ -36,7 +45,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 2em;
   }
   header * {
     color: white;
@@ -64,6 +72,24 @@
   }
   header a {
     margin-left: 0.25em;
+  }
+  nav {
+    padding: 1em 0 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    background: var(--sky);
+  }
+  nav a {
+    display: inline-block;
+    margin: 1em 0.5em 0 0.5em;
+    padding: 0.25em 0.75em;
+    background:var(--green);
+    color: white;
+    border: 2px solid var(--green-d);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9em;
   }
   @media screen and (max-width: 800px) {
     header {
@@ -114,12 +140,6 @@
 <div id="intro" class="w">
   <h2>You Got This will cover topics across three themes - learning, living and levelling-up. This isn’t your typical tech conference - we're not talking about your technical skills, but everything else needed for a happy, healthy work life.</h2>
   <p>You Got This is an annual, 150+ person conference for junior developers, designers, and their teams to learn how to better support their co-workers. Submit your talk by September 9 2018, and tickets will be available soon after.</p>
-  <div class="links">
-    <a href="/sponsorship">Sponsorship</a>
-    <a href="/cfp">Submit a Talk</a>
-    <a href="/inclusion">Inclusion Programme</a>
-    <a href="/conduct">Code of Conduct</a>
-  </div>
 </div>
 
 <div id="sponsors" class="w">
@@ -140,6 +160,7 @@
     <div class="logo"><img src="/assets/img/sponsors/samsung-internet.png"></div>
     <div class="logo"><img src="/assets/img/sponsors/mlh.png"></div>
     <div class="logo"><img src="/assets/img/sponsors/balsamiq.png"></div>
+    <div class="logo"><img src="/assets/img/sponsors/monzo.png"></div>
   </div>
 </div>
 
@@ -178,18 +199,6 @@
   font-weight: normal;
   font-size: 1.25em;
   margin-bottom: 1em;
-}
-#intro .links {
-  margin-top: 0.5em;
-}
-#intro a {
-  display: inline-block;
-  margin: 1em 0.5em 0 0.5em;
-  padding: 0.25em 0.75em;
-  border: 2px solid var(--text);
-  text-decoration: none;
-  font-weight: bold;
-  text-transform: uppercase;
 }
 @media screen and (max-width: 800px) {
   #intro h2 {

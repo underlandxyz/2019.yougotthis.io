@@ -4,8 +4,12 @@
   --light: #F5515F;
   --dark: #9F031B;
   --darker: #640C0F;
+  --sky: #D8ECEB;
+  --green: #26A47A;
+  --green-d: #1d664e;
   --text: #3A4B57;
   --white: #ccc;
+  --elevate: 0 10px 20px rgba(0,0,0,0.19), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 * {
