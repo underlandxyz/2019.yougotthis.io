@@ -13,6 +13,7 @@
   <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
   <meta property="og:image" content="https://yougotthis.io/assets/img/og.png" />
   <meta name="description" content="An affordable one-stream conference for junior developers and designers on skills needed for a happy, healthy work life." />
+  <script src='https://js.tito.io/v1' async></script>
 </head>
 <body>
   <div class="main">
@@ -31,11 +32,11 @@
 <nav>
   <div class="links">
     <a href="/">Home</a>
-    <a href="/sponsorship">Sponsorship</a>
+    <!-- <a href="/schedule">Schedule</a> -->
     <a href="/venue">Venue</a>
     <a href="/inclusion">Inclusion Programme</a>
+    <a href="/sponsorship">Sponsorship</a>
     <a href="/conduct">Code of Conduct</a>
-    <a>Tickets available October 8</a>
   </div>
 </nav>
 
@@ -142,6 +143,8 @@
   <h2>You Got This will cover topics across three themes - learning, living and levelling-up. This isn’t your typical tech conference - we're not talking about your technical skills, but everything else needed for a happy, healthy work life.</h2>
   <p>You Got This is an annual, 150+ person conference for junior developers, designers, and their teams to learn how to better support their co-workers. Submission for speakers has now closed and we'll be announcing the full schedule shortly..</p>
 </div>
+<link rel="stylesheet" type="text/css" href='https://css.tito.io/v1.1' />
+<tito-widget event="underland/you-got-this-2019"></tito-widget>
 
 <div id="sponsors" class="w">
   <h2>Thank you to our sponsors</h2>
@@ -167,7 +170,9 @@
 
 <style>
   #sponsors {
-    margin-bottom: 2em;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    padding: 0 2rem;
   }
   #sponsors h2 {
     text-align: center;
@@ -184,6 +189,9 @@
     display: block;
   }
   @media screen and (max-width: 800px) {
+    #sponsors {
+      padding: 0 1rem;
+    }
     #sponsors .logos {
       grid-template-columns: 1fr 1fr;
     }
