@@ -166,6 +166,7 @@ h1.title {
 }
 .t .s img {
   width: 100%;
+  border: 2px solid var(--white);
 }
 .t .s .c {
   padding-left: 1em;
