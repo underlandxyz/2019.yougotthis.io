@@ -110,7 +110,9 @@
   }
 </style>
     <div id="hero">
-  <h1 class="w">An affordable one-stream conference for juniors on skills needed for a happy, healthy work life.</h1>
+  <div class="w">
+    <h1>An affordable one-stream conference for juniors on skills needed for a happy, healthy work life.</h1>
+  </div>
   <img src="/assets/img/logo-lockup.svg" alt="You Got This Full Logo">
 </div>
 
@@ -121,10 +123,15 @@
     padding-top: 2em;
     margin-top: -2em;
   }
+  #hero .w {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
   #hero h1 {
     font-size: 2em;
     text-align: center;
-    text-shadow: 1px 1px 1px white;
+    background: white;
   }
   #hero img {
     height: 500px;
