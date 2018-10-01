@@ -70,7 +70,7 @@ title: Schedule
         </div>
       </div>
     </li>
-    <li>
+    <!-- <li>
       <div class="time">16:50</div>
       <div class="info">
         <span class="type">Keynote</span>
@@ -91,7 +91,7 @@ title: Schedule
           </div>
         </div>
       </div>
-    </li>
+    </li> -->
     <li>
       <div class="time">17:25</div>
       <div class="info">
