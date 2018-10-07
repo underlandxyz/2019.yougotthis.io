@@ -19,9 +19,6 @@ title: Inclusion Programme
             <li>You still have to cover the cost of travel (and accommodation if there is any).</li>
           </ul>
         </div>
-        <div class="link">
-          <a href="#">Apply for ticket-only scholarship soon</a>
-        </div>
       </div>
       <div class="box">
         <div class="top">
@@ -35,11 +32,9 @@ title: Inclusion Programme
             <li>Only available for people travelling from the UK</li>
           </ul>
         </div>
-        <div class="link">
-          <a href="#">Apply for full scholarship soon</a>
-        </div>
       </div>
     </div>
+    <a href='https://goo.gl/forms/JAJvgJqCbWkr3NR33' class='link'>Apply for a scholarship</a>
   </div>
   <div class="boxes">
     <div class="box">
@@ -88,8 +83,12 @@ title: Inclusion Programme
   justify-content: space-between;
 }
 .tickets .link {
-  margin-top: 1em;
+  margin-top: 0;
   margin-bottom: 0;
+  width: 100%;
+  display: block;
+  font-size: 1.25em;
+  text-align: center;
 }
 .tickets .top,
 .tickets .boxes {
