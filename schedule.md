@@ -97,6 +97,27 @@ title: Schedule
       </div>
     </li>
     <li>
+      <div class="time">12:40</div>
+      <div class="info">
+        <span class="type">Talk</span>
+        <div class="c">
+          <h2>Junior.next()</h2>
+          <div class="desc">
+            <p>Life as a "junior" developer can be intense, overwhelming, but rewarding. How can juniors move on to the next level? And, what can employers, mentors, and communities do to support the next generation of developers?</p>
+          </div>
+        </div>
+        <div class="s">
+          <div class="img">
+            <img src="/assets/img/speakers/tara.jpg" alt="Photo of Tara">
+          </div>
+          <div class="c">
+            <h2>Tara Ojo</h2>
+            <p>Tara is a software engineer at FutureLearn, a social learning company, enabling online learning through conversation. Prior to this, Tara spent 2 years at Marks & Spencer including 12 months on their software engineering graduate scheme. Since then Tara has become a STEM ambassador and is passionate about encouraging and inspiring young people from diverse backgrounds to consider a career in tech.</p>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li>
       <div class="time">13:25</div>
       <div class="info">
         <div class="c">
@@ -105,10 +126,58 @@ title: Schedule
       </div>
     </li>
     <li>
+      <div class="time">14:30</div>
+      <div class="info">
+        <span class="type">Talk</span>
+        <div class="c">
+          <h2>Self-care: Beyond the hashtags</h2>
+          <div class="desc">
+            <p>#Selfcare has over 7.5 million Instagram  posts, but we have more questions than ever about what self-care actually is. In this talk, we'll take self-care beyond the hashtags and into your daily life. We'll define it and walk through the process of creating meaningful self-care rituals.</p>
+          </div>
+        </div>
+        <div class="s">
+          <div class="img">
+            <img src="/assets/img/speakers/taylor.png" alt="Photo of Taylor">
+          </div>
+          <div class="c">
+            <h2>Taylor Morrison</h2>
+            <p>Taylor Morrison is the founder of Jubilant, a brand experience firm, but her favorite title is ritual builder. She writes, speaks, and consults on seemingly unrelated topics like branding, self-care, and business operations. She explores purpose and process to help people and organizations build meaningful rituals for work and for life.</p>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="time">15:05</div>
+      <div class="info">
+        <span class="type">Talk</span>
+        <div class="c">
+          <h2>Talk announced soon</h2>
+        </div>
+      </div>
+    </li>
+    <li>
       <div class="time">15:50</div>
       <div class="info">
         <div class="c">
           <h2>Comfort break</h2>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="time">16:20</div>
+      <div class="info">
+        <span class="type">Talk</span>
+        <div class="c">
+          <h2>Talk announced soon</h2>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="time">16:50</div>
+      <div class="info">
+        <span class="type">Keynote</span>
+        <div class="c">
+          <h2>Keynote announced soon</h2>
         </div>
       </div>
     </li>
