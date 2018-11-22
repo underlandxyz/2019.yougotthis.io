@@ -1,24 +1,37 @@
 <div id="sponsors" class="w">
-  <h2>Thank you to our sponsors</h2>
-  <div class="logos">
-    <div class="logo hired"><img src="/assets/img/sponsors/hired.png"></div>
-    <div class="logo"><img src="/assets/img/sponsors/buzzfeed.png"></div>
-    <div class="logo mlab"><img src="/assets/img/sponsors/mongodb.png"></div>
-    <div class="logo"><img src="/assets/img/sponsors/wildrocket.png"></div>
-    <div class="logo"><img src="/assets/img/sponsors/twilio.png"></div>
-    <div class="logo"><img src="/assets/img/sponsors/and-digital.png"></div>
-    <div class="logo"><img src="/assets/img/sponsors/github.png"></div>
-    <div class="logo"><img src="/assets/img/sponsors/verve.png"></div>
-    <div class="logo"><img src="/assets/img/sponsors/not-binary.png"></div>
-    <div class="logo"><img src="/assets/img/sponsors/indee.png"></div>
-    <div class="logo"><img src="/assets/img/sponsors/proactive.png"></div>
-    <div class="logo"><img src="/assets/img/sponsors/futuregov.png"></div>
-    <div class="logo"><img src="/assets/img/sponsors/dxw.png"></div>
-    <div class="logo"><img src="/assets/img/sponsors/samsung-internet.png"></div>
-    <div class="logo"><img src="/assets/img/sponsors/mlh.png"></div>
-    <div class="logo"><img src="/assets/img/sponsors/balsamiq.png"></div>
-    <div class="logo"><img src="/assets/img/sponsors/monzo.png"></div>
-    <div class="logo"><img src="/assets/img/sponsors/underland.png"></div>
+  <div class="tier gold">
+    <h2>Gold sponsor</h2>
+    <div class="list">
+      <div class="clear"></div>
+      <div class="logo"><img src="/assets/img/sponsors/hired.png"></div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="tier silver">
+    <h2>Silver sponsors</h2>
+    <div class="list">
+      <div class="logo"><img src="/assets/img/sponsors/github.png"></div>
+      <div class="logo mlab"><img src="/assets/img/sponsors/mongodb.png"></div>
+      <div class="logo"><img src="/assets/img/sponsors/wildrocket.png"></div>
+      <div class="logo"><img src="/assets/img/sponsors/twilio.png"></div>
+      <div class="logo"><img src="/assets/img/sponsors/and-digital.png"></div>
+      <div class="logo"><img src="/assets/img/sponsors/verve.png"></div>
+    </div>
+  </div>
+  <div class="tier bronze">
+    <h2>Bronze sponsors</h2>
+    <div class="list">
+      <div class="logo"><img src="/assets/img/sponsors/buzzfeed.png"></div>
+      <div class="logo"><img src="/assets/img/sponsors/not-binary.png"></div>
+      <div class="logo"><img src="/assets/img/sponsors/indee.png"></div>
+      <div class="logo"><img src="/assets/img/sponsors/proactive.png"></div>
+      <div class="logo"><img src="/assets/img/sponsors/futuregov.png"></div>
+      <div class="logo"><img src="/assets/img/sponsors/dxw.png"></div>
+      <div class="logo"><img src="/assets/img/sponsors/samsung-internet.png"></div>
+      <div class="logo"><img src="/assets/img/sponsors/mlh.png"></div>
+      <div class="logo"><img src="/assets/img/sponsors/balsamiq.png"></div>
+      <div class="logo"><img src="/assets/img/sponsors/nedap.png"></div>
+    </div>
   </div>
 </div>
 
@@ -32,10 +45,21 @@
     text-align: center;
     font-size: 1.25em;
   }
-  #sponsors .logos {
+  #sponsors .tier {
+    margin-bottom: 2em;
+  }
+  #sponsors .gold .list {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  #sponsors .silver .list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #sponsors .bronze .list {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  #sponsors .list {
     margin: 1em auto 0;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
     grid-gap: 1em;
   }
   #sponsors img {
@@ -46,8 +70,12 @@
     #sponsors {
       padding: 0 1rem;
     }
-    #sponsors .logos {
-      grid-template-columns: 1fr 1fr;
+    #sponsors .list {
+      grid-template-columns: 1fr 1fr !important;
+    }
+    #sponsors .gold .list {
+      grid-template-columns: 1fr !important;
+      grid-gap: 0 !important;
     }
   }
 </style>
