@@ -5,7 +5,6 @@ title: Schedule
 
 <div class="w">
   <h1 class="title">Schedule</h1>
-  <p>This schedule is being announced over the coming weeks, but we hope that by providing this ahead of time you can make plans around this event.</p>
   <ul class='t'>
     <li>
       <div class="time">09:30</div>
@@ -151,7 +150,22 @@ title: Schedule
       <div class="info">
         <span class="type">Talk</span>
         <div class="c">
-          <h2>Talk announced soon</h2>
+          <h2>Morality and Ethics - Caring is Everything</h2>
+          <div class="desc">
+            <p>"In software development, caring is everything - and as the senior developers of tomorrow, we are should start the revolution.</p>
+            <p>Are we the fix in the fight against guns-for-hire developers? How do we prevent unethical technology spreading (and being made)?</p>
+            <p>Life as a "junior" developer can be intense, overwhelming, but rewarding. How can juniors move on to the next level? And, what can employers, mentors, and communities do to support the next generation of developers?</p>
+          </div>
+        </div>
+        <div class="s">
+          <div class="img">
+            <img src="/assets/img/speakers/samw.jpg" alt="Photo of Sam">
+          </div>
+          <div class="c">
+            <h2>Sam Warner</h2>
+            <p>Sam is a recent graduate of the University of Warwick. Currently, he helps make cool things happen with Black Pepper Software in his role as a software developer. When he's not working, he maintains a couple of open-source GitHub repositories for a learning-to-program platform, attend as many hackathons as he can cram into his life, plays and watches sports, and solves Rubik's cubes as fast as he can.</p>
+            <p>Sam lives and breathes software, and is a huge believer in coding for social good!</p>
+          </div>
         </div>
       </div>
     </li>
@@ -168,20 +182,23 @@ title: Schedule
       <div class="info">
         <span class="type">Talk</span>
         <div class="c">
-          <h2>Talk announced soon</h2>
+          <h2>Understanding and Cultivating Independence</h2>
+          <div class="desc">
+            <p>Independence is the key to professional growth. It doesn’t mean working alone; it means being able to problem-solve and seek help. Attendees will leave with a new definition of independence, as well as a framework for developing and maintaining independence in their professional life.</p>
+          </div>
+        </div>
+        <div class="s">
+          <div class="img">
+            <img src="/assets/img/speakers/violet.jpeg" alt="Photo of Violet">
+          </div>
+          <div class="c">
+            <h2>Violet Peña</h2>
+            <p>Violet is a Senior Developer at <a href="http://www.instrument.com/">Instrument</a> in Portland, OR. When she’s not heading up <a href="https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_path_by_manual.php">“quite nice” NGO website rebuilds</a>, she’s making <a href="https://twitter.com/gcpemotobooth">emotion-detecting photo booths</a> and <a href="https://github.com/vgpena/next-weekend">turning hike databases into custom Google Maps</a>. She loves documentation, knowledge-sharing, and empowering others to create and be creative. If Violet isn’t in front of a computer, she’s probably in her garden, the climbing gym, or deep in the forests of the Pacific Northwest.</p>
+          </div>
         </div>
       </div>
     </li>
     <li>
-      <div class="time">16:50</div>
-      <div class="info">
-        <span class="type">Keynote</span>
-        <div class="c">
-          <h2>Keynote announced soon</h2>
-        </div>
-      </div>
-    </li>
-    <!-- <li>
       <div class="time">16:50</div>
       <div class="info">
         <span class="type">Keynote</span>
@@ -202,7 +219,7 @@ title: Schedule
           </div>
         </div>
       </div>
-    </li> -->
+    </li>
     <li>
       <div class="time">17:25</div>
       <div class="info">
