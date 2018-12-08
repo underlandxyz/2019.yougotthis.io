@@ -34,7 +34,7 @@ title: Inclusion Programme
         </div>
       </div>
     </div>
-    <a href='https://goo.gl/forms/JAJvgJqCbWkr3NR33' class='link'>Apply for a scholarship</a>
+    <a href='#' class='link'>Scholarships have now been awarded for 2019</a>
   </div>
   <div class="boxes">
     <div class="box">
