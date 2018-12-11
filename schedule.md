@@ -236,6 +236,14 @@ title: Schedule
       </div>
     </li>
   </ul>
+  <div class="mc">
+    <div class="content">
+      <div class="tag">Master of Ceremonies</div>
+      <h2>Scary Boots</h2>
+      <p>Scary is a comedian and MC with 11 years experience in science and engineering within academia. They specialise in surreal comedy about when people meet science, which they have taken to the Edinburgh Fringe Festival, Cheltenham Science Festival (in drag, causing much confusion among the audience), Electromagnetic Field, and more. Scary is just finishing a PhD in the science of 3D printing shape changing jelly. </p>
+    </div>
+    <div class="img"></div>
+  </div>
 </div>
 
 <style>
@@ -249,7 +257,9 @@ h1.title {
 }
 .t li {
   background: #f5f5f5;
-  border: 2px solid var(--white);
+  border: 1px solid var(--white);
+  -webkit-box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
   margin-left: 0;
   display: grid;
   grid-template-columns: 100px auto;
@@ -311,6 +321,36 @@ h1.title {
   margin-bottom: 0;
 }
 
+.mc {
+  background: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  margin-bottom: 3em;
+  -webkit-box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+  box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+}
+.mc .content {
+  padding: 1em;
+}
+.mc .tag {
+  background: white;
+  color: var(--dark);
+  padding: 0.4em 0.75em;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+.mc h2,
+.mc p {
+  color: white;
+}
+.mc .img {
+  background-image: url('/assets/img/speakers/scary.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 450px;
+}
+
 @media screen and (max-width: 800px) {
   .t li {
     grid-template-columns: 1fr;
@@ -320,6 +360,15 @@ h1.title {
     min-width: 100px;
     max-width: 100px;
     margin-top: 0;
+  }
+  .mc {
+    grid-template-columns: 1fr;
+  }
+  .mc .img {
+    height: 90vw;
+  }
+  .mc .content {
+    margin-bottom: 0;
   }
 }
 
