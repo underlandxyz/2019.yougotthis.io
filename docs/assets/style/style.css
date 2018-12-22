@@ -67,3 +67,9 @@ a.redirect {
   display: block;
   padding: 0 1em;
 }
+
+input,
+button,
+textarea {
+  -webkit-appearance: none;
+}

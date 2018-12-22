@@ -8,8 +8,8 @@ title: Venue
   <div class="info">
     <address>
       <h2>Monzo</h2>
-      <p>38 Finsbury Square</p>
-      <p>EC2A 2EP</p>
+      <p>35 Wilson Sreet</p>
+      <p>EC2A 2ER</p>
     </address>
     <p class='more'>
       Monzo have very kindly offered to host us for the day. Their lovely venue is a five minute walk from Moorgate. All of the spaces we're using are wheelchair accessible with gender neutral toilets throughout.
