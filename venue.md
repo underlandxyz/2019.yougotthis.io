@@ -8,14 +8,14 @@ title: Venue
   <div class="info">
     <address>
       <h2>Monzo</h2>
-      <p>35 Wilson Sreet</p>
+      <p>35 Wilson Street</p>
       <p>EC2A 2ER</p>
     </address>
     <p class='more'>
       Monzo have very kindly offered to host us for the day. Their lovely venue is a five minute walk from Moorgate. All of the spaces we're using are wheelchair accessible with gender neutral toilets throughout.
     </p>
   </div>
-  <iframe frameborder="0" allowfullscreen="" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ8fccgq4cdkgR3NXnBFdKomE&amp;key=AIzaSyCvjeQM0m8usekK_7Qo-vrpEy-_sJEws6s" class="s_5487"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.6261809940506!2d-0.08771514865944886!3d51.52007381749742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cac2981fb47%3A0xd2e8f6976dd9c670!2s35+Wilson+St%2C+London+EC2A+2ER!5e0!3m2!1sen!2suk!4v1546790451514" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
 <style>
