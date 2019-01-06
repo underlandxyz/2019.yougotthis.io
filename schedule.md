@@ -15,7 +15,7 @@ title: Schedule
       </div>
     </li>
     <li>
-      <div class="time">10:30</div>
+      <div class="time">10:00</div>
       <div class="info">
         <div class="c">
           <h2>Welcome talk</h2>
