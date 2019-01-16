@@ -31,7 +31,7 @@ title: Food
   </div>
   <div class="meal">
     <h2>Afternoon Ice Cream</h2>
-    <p>Smooth liquid nitrogen cooled ice creams from Chin Chin Labs.</p>
+    <p>Smooth liquid nitrogen cooled ice creams from Chin Chin Labs. All vegan.</p>
     <ul>
       <li>
         <span>Option 1</span>
