@@ -23,7 +23,7 @@ title: Schedule
       </div>
     </li>
     <li>
-      <div class="time">10:15</div>
+      <div class="time">10:30</div>
       <div class="info">
         <span class="type">Keynote</span>
         <div class="c">
@@ -46,7 +46,7 @@ title: Schedule
       </div>
     </li>
     <li>
-      <div class="time">10:50</div>
+      <div class="time">11:05</div>
       <div class="info">
         <span class="type">Talk</span>
         <div class="c">
@@ -67,7 +67,7 @@ title: Schedule
       </div>
     </li>
     <li>
-      <div class="time">11:35</div>
+      <div class="time">11:50</div>
       <div class="info">
         <div class="c">
           <h2>Comfort break</h2>
