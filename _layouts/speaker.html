@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<div class="w content speaker">
+  <h1 class="title">{{page.title}}</h1>
+  <h2 class="talk">{{page.talk}}</h2>
+  {{ page.abstract }}
+  <div class="split">
+    <div class="main">
+      <iframe src="https://www.youtube.com/embed/{{page.vid}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h2>Transcript</h2>
+      <button id="ts">Toggle transcript visibility</button>
+      <article>
+        <small>Note: this transcript was done live, and as such there might be some errors. If you spot any - please get in touch and we'll get them fixed ASAP.</small>
+        {{content}}
+      </article>
+    </div>
+    <div class="aside">
+      <div class="profile">
+        <img src="/assets/img/speakers/{{page.profile}}" alt="Pic of {{page.title}}">
+        <p>{{page.bio}}</p>
+        {% if page.twitter %}
+          <a href="https://twitter.com/{{page.twitter}}">@{{page.twitter}}</a>
+        {% endif %}
+      </div>
+      <div class="pics">
+        <img src="/assets/img/highlights/talks/{{page.sn}}" alt="Sketchnote of talk">
+        <small>Sketchnote by Drawnalism</small>
+        {% for pic in page.pics %}
+          <img src="/assets/img/highlights/talks/{{pic.file}}" alt="Picture of talk">
+          <small>Photo by Paul Clarke</small>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  let toggle = document.querySelector("#ts");
+  let article = document.querySelector("article");
+  toggle.onclick = () => {
+    article.classList.toggle('show');
+  }
+</script>
