@@ -5,4 +5,3 @@ description: >-
 url: "https://yougotthis.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 markdown: kramdown
-destination: docs
